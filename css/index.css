@@ -1,0 +1,360 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+#header-section{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0,0,0,0.5)), url(../img/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav{
+    background: rgba(0, 0, 0, 0.1);
+    border: none;
+}
+/*HEADER TEXT*/
+.header-text{
+    color: white;
+    margin-top: 10%;
+}
+.head-button{
+    color:white;
+    background-color: #2196f3;
+    padding: 2px 27px;
+   margin-bottom: 10%;
+   border: none;  
+}
+.btn{
+    margin-top: 5%;
+}
+.head-button:hover{
+    color: black;
+    background-color: white;
+    border: none;
+}
+.forms{
+    background-color: white;
+    padding: 30px;
+    color: black;
+    margin-bottom: 30px;
+}
+.forms .btn{
+    background-color: #2196f3;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 100%;
+}
+textarea{
+    height: 100px;
+}
+#repete-text{
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    display: inline-block;
+}
+.law-type:after{
+    content: '';
+    animation: changetext 5s infinite linear;
+}
+@keyframes changetext{
+    0%{content: "Accedent";}
+    25%{content: "Divoce";}
+    50%{content: "Injury";}
+    75%{content: "Defamation";}
+    100%{content: "Patterm";}
+}
+/*CLIENT LOGO*/
+.logo-scroll{
+    background-color: #e0e0e0;
+    margin-top: -20px;
+}
+/*P-AREA*/
+.p-area{
+    text-align: center;
+    margin: 35px;
+}
+.p-img img{
+    border:1px dashed #1f72d9;
+    padding: 5px;
+    margin-top: 10%;
+    height: 100%;
+    width: 100%;
+}
+/*AMAZING FEATURE*/
+#a-f{
+    background-color: #f6f6f6;
+    text-align: center;
+}
+.af-head h3{
+    margin: 2%;
+}
+.a-img img{
+    border:1px dashed #1f72d9;
+    padding: 2px;
+    margin: 10%;
+    height: 100%;
+    width: 100%;
+}
+.a-img .p1{
+    margin: 7%;
+    text-align: left;
+}
+.sed-row p{
+    text-align: left ;
+    font-size: 15px;
+}
+.sed-row h5{
+    text-align: left ;
+    font-size: 18px;
+}
+/*ABOUT SECTION*/
+#about{
+    margin-top: 3%;
+    text-align: center;
+}
+.a-body{
+    margin: 6%;
+}
+.a-body h5{
+    text-align: left;
+}
+.a-body p{
+    text-align: left;
+}
+.a-body img{
+    height: 100%;
+    width: 100%;
+    border:1px dashed #1f72d9;
+    padding: 4px;
+}
+.a-icon{
+    margin: 5%;  
+}
+.a-icon i{
+    background-image: linear-gradient(to top, #9120e1, #1f72d9);
+    padding: 25px;
+    border-radius: 50%;
+}
+.a-icon p{
+    margin: 5%;
+    text-align: center;
+}
+/*VEDIO SECTION*/
+#video-section{
+    background-image: url(../img/bg2.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+.video-frame{
+    margin: 5%;
+}
+.video-frame iframe{
+    width: 90%;
+    border: 7px solid black;
+}
+/*LAWYER SECTION*/
+#lawer{
+    text-align: center;
+}
+.lawer-profile img{
+    margin: 5%;
+    width: 100%;
+    border:1px dashed #1f72d9;
+    padding: 4px;
+}
+.lawer-profile ul{
+    display: flex;
+}
+.lawer-profile ul li{
+    text-align: center;
+    padding: 2%;
+    top: 50%;
+    left: 50%;
+    transform: translate(250%, 20%);
+}
+.lawer-profile ul a{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 10%;
+}
+.fa{
+    padding: 10%;
+    font-size: 25px;
+}
+/*CLIETS*/
+#clint-card{
+    background-image: linear-gradient(to right, #9021e1, #1f71d9);
+    color: white;
+    text-align: center;
+}
+#clint-card h1{
+    font-weight: bold;  
+}
+/*CLIENT DETAILS*/
+.client-review{
+    text-align: center;
+    margin-top: -27px;
+}
+.slider .indicators .indicator-item {
+    height: 5px;
+    width: 50px;
+    margin: 44 12px;
+    border-radius: 1%;
+}
+/*OUR PACKAGE*/
+#package{
+    text-align: center;
+    background: #eee;
+}
+.price{
+    margin: 5%;
+}
+.price-list{
+    border: 3px solid transparent;
+    background: #fff;
+    padding: 40px 20px;
+    margin-left: 10px;
+    width: 100%;
+
+}
+.price-list h5{
+    font-size: 30px;
+}
+.price-list i{
+    font-size: 60px;
+    color: gray;
+}
+.price-list-data strong{
+    font-size: 30px;
+    font-weight: bold;
+    color: #1f72d9;
+    display: block;
+}
+.price-list p{
+    letter-spacing: 0;
+    border-top: 1px solid #eee;
+    font-size: 15px;
+    padding-top: 12px;
+    margin-top: 9px;
+    text-transform: uppercase;
+}
+.price-list button{
+    background: #333;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 1px 0px;
+    display: block;
+    width: 100%;
+    margin: 30px 0px;
+}
+.price-list-select{
+    border: 3px solid transparent;
+    border-color: white;
+    background-image: linear-gradient(to right, #9021e1, #1f71d9);
+    padding: 40px 20px;
+    margin-left: 10px;
+    color: white;
+    width: 100%;
+    margin: 4%;
+}
+.price-list-select h5{
+    font-size: 30px;
+}
+.price-list-select i{
+    font-size: 60px;
+    color: white;
+}
+.price-list-data strong{
+    font-size: 30px;
+    font-weight: bold;
+    color: #1f72d9;
+    display: block;
+}
+.price-list-select p{
+    letter-spacing: 0;
+    border-top: 1px solid #eee;
+    font-size: 15px;
+    padding-top: 12px;
+    margin-top: 9px;
+    text-transform: uppercase;
+}
+.price-list-select button{
+    background: white;
+    color: black;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 1px 0px;
+    display: block;
+    width: 100%;
+    margin: 30px 0px;
+}
+/*QUATS*/
+#quats{
+    text-align: center;
+}
+.address{
+    text-align: left;
+    border: 1px solid black;
+    background-color: whitesmoke;
+    margin: 14% -2%;
+    padding: 1px 7%;
+}
+.address i{
+    font-size:40px;
+    text-align: center;
+    
+}
+.address .fa{
+    font-size: 42px;
+    color: #1f72d9;
+}
+/*MAP*/
+.map {
+    width: 100%;
+    height: 330px;
+    border: none;
+    display: block;
+    pointer-events: none;
+}
+.map iframe{
+    width: 100%;
+}
+/*FOOTER*/
+.last{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+.social-footer ul{
+    display: flex;
+    transform: translate(130%, 0%);
+}
+.social-footer ul li{
+    padding: 10%;
+    text-align: center;
+}
+.social-footer .fa{
+    color: white;
+    text-align: center;
+}
+@media(max-width :990px){
+    .a-img img{
+        margin: 0;
+    }
+    .sed-row h5 {
+        text-align: center;
+    }
+    .sed-row p {
+        text-align: center;
+    }
+    .lawer-profile ul a{
+        padding: 220%;
+    }
+}
